@@ -8,6 +8,7 @@
 body {
   background: #2F2F2F;
   max-width: 100% !important;
+  overflow-x: hidden;
 }
 .headerShadow {
   box-shadow: 0px 10px 72px #171717;

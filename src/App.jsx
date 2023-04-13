@@ -40,10 +40,12 @@ export default function App() {
 
   return (
     <div className="bg-[#2F2F2F] h-screen">
-      <Header />
+      <div className="fixed w-full">
+        <Header />
+      </div>
 
       
-      <div className="flex justify-center items-center h-5/6">
+      <div className="flex justify-center items-center h-full pt-20">
 
       {
 
